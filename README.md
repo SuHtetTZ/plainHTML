@@ -1,6 +1,7 @@
 # plainHTMLandCSS
 a basic HTML and CSS project
 This was created using a theme provided by the school.
+Edit: This website was created as part of my early coursework during my beginner classes.
 
 A basic website for ACS (Animal Charity Support).
 ACS promotes an annual charity show in the community to raise funds for animal shelters across the country.
@@ -25,3 +26,5 @@ User Registration:
   Allows customers to sign up for event notifications and updates.
 Updates and Events:
   Displays monthly updates and details about the annual charity show hosted by ACS.
+
+For more detailed information, read the documentation file.
