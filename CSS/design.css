@@ -1,0 +1,337 @@
+body
+{
+width: 85%;
+margin:3.57%;		/*margin top and bottom*/
+margin-right: 15%;
+margin-left: 8%;
+border: 10px solid #ffab00;			/*surround a border around the whole page : thickness: 10px, border type: solid line*/
+border-radius: 10px;				/*curve the edges of the border*/
+box-shadow: 0.35% 0.35% 035% #424242;		/*create some shadow around the border*/
+}
+#logo 
+{
+	margin-top: 0.7%;		/*declaring where the margins*/
+	margin-bottom: 1.42%;
+	margin-left: 0.42%;
+	margin-right: 0.42%;
+
+    background-image: url("../images/background.JPG");		/*placing background image*/
+    background-repeat: no-repeat;				/*for only one background image to appear*/
+    background-size: cover;						/*for the image to cover the entire place*/
+    background-origin: border-box;				/*declaring the background not to appear behind the border*/
+	
+	border: 3px groove;						/*creating border*/
+	padding: 0.35% 1.42%;					/*spacing between text or image from the border from inside*/
+	box-shadow: 5px 5px 5px #424242;
+	
+	color: #ffab00;					/*font properties*/
+	font-style: "High Tower Text", "Arial";		
+	font-size: 200%;
+}
+#navigation
+{
+	clear: both;					/*stop the float properties for both left and right*/
+	margin-top: 0.71%;
+	margin-bottom: 0.71%;
+	margin-left: 0.43%;
+
+	text-align: center;			/*text to appear in the center*/
+
+	background-color: #000;
+}
+#navigation a
+{
+	color: #ffab00;
+	font-size: 120%;
+	font-family: "High Tower Text", "Arial";
+	text-decoration: none;			/*to stop underlining the links*/
+
+	display: block;					/*turn the links into individual blocks*/
+	float: left;
+
+	padding-top: 1.42%;
+	padding-bottom: 1.42%;
+	padding-left: 2.7%;
+	padding-right: 2.7%;
+
+	background-color: #424242;
+	margin-bottom: 0.57%;
+}
+#navigation a:hover				/*process for what will happen when the pointer hovers over it*/
+{
+	color: white;				/*if the pointer hovers above the text will change color*/
+}
+
+/*-----------------------------------content-------------------------------------------*/
+
+#content
+{
+	clear: both;
+	margin-top: 0.7%;
+	margin-left: 0.43%;		
+	margin-bottom: 0.7%;	
+}
+#content .intro img 				/*the image in home page*/
+{
+	margin-top: 2%;
+	width: 30%;
+	float: left;
+	box-shadow: 0.35% 0.35% 0.35% #424242;
+}
+#content dt.home
+{
+	color: #ffab00;
+	font-size: 200%;
+	margin-left: 35%;
+	margin-right: 0.7%;
+}
+#content dd.home
+{
+	font-size: 150%;
+	margin-left: 35%;
+	margin-right: 0.7%;
+}
+#content .intro		/*Intro of ACS in home page*/
+{
+	clear: both;
+	float: left;
+	margin-right: 0.35%;
+	margin-left: 0.35%;
+	margin-top: 0.7%;
+	margin-bottom: 0.7%;
+}
+#content p
+{
+	clear: both;
+	font-style: "Times New Roman", "Arial";
+	font-size: 120%;
+	margin-right: 0.7%;
+	margin-left: 0.7%;
+}
+#content .socialmedia p
+{
+	margin-left: 45%;
+	color: #ffab00;
+	font-size: 200%;
+}
+#content .socialmedia img
+{
+	margin-left: 37%;
+	width: 20%;
+}
+#content .socialmedia video
+{
+	width: 80%;
+	margin-left: 12%;
+}
+#content .info p
+{
+	font-size: 120%;
+	margin-left: 25%;
+}
+#content p.Links	/*For the links at the bottom of the home page*/
+{
+	margin-top: 1%;
+	margin-left: 22%;
+	margin-right: 25%;
+	text-align: center;
+	font-size: 110%;
+}
+
+/*------------------------------------forms---------------------------------------------------*/
+#content form			/*Forms from home page and Join Us Now page*/
+{
+	width: 35.7%;
+	position: center;
+	margin-left: 28%;
+	margin-right: 21.43%;
+	border: 1px solid #fff;
+	box-shadow: 5px 5px 5px #424242;
+	font-size: 120%;
+	text-align: left;
+}
+
+/*---------------------------JoinUsNow(link)--------------------------------------*/
+#content .sociallink img
+{
+	width: 80%;
+	margin-left: 5%;
+}
+/*-----------------------from Calculator-------------------------*/
+#content .Calculator
+{
+	color: #ffab00;
+	text-align: center;
+	font-size: 180%;
+}
+
+
+/*---------------------------------content for Charity Events----------------------------------*/
+#content_CE
+{
+	clear: both;
+	margin-top: 0.7%;
+	margin-left: 0.43%;
+	margin-bottom: 0.7%;
+}
+#content_CE h1
+{
+	color: #ffab00;
+	font-size: 250%;
+}
+#content_CE dl
+{
+	border: 3px double #ffab00;
+	box-shadow: 3px 3px 5px #424242;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 1.5%;
+}
+.news a
+{
+	font-size: 100%;
+}
+.news dt.main
+{
+	color: #ffab00;
+	font-size: 220%;
+
+	margin-left: 35%;
+	margin-right: 10%;
+}
+.news dt.eventname
+{
+	color: #ffab00;
+	font-size: 180%;
+	margin-left: 35%;
+	margin-right: 10%;
+}
+.news dd
+{
+	font-size: 150%;
+	margin-left: 35%;
+	margin-right: 10%;
+}
+.news img
+{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 20%;
+}
+/*---------------------------Content for News and Reviews----------------------*/
+#content_NR
+{
+	clear: both;
+	margin-top: 0.7%;
+	margin-left: 0.43%;
+	margin-bottom: 0.7%;
+}
+#content_NR h1
+{
+	color: #ffab00;
+	font-size: 250%;
+}
+#content_NR dl.news
+{
+	border: 3px double #ffab00;
+	box-shadow: 3px 3px 5px #424242;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 1.5%;
+}
+#content_NR .news dt
+{
+	color: #ffab00;
+	font-size: 180%;
+	margin-left: 35%;
+	margin-right: 10%;
+}
+#content_NR dt.sub
+{
+	color: #ffab00;
+	font-size: 130%;
+	margin-left: 35%;
+	margin-right: 10%;
+}
+#content_NR .news dd
+{
+	font-size: 150%;
+	margin-left: 35%;
+	margin-right: 10%;
+}
+#content_NR .news img
+{
+	float: left;
+	margin-top: 1%;
+	margin-left: 5%;
+	width: 12%;
+}
+/*----------------------------Content for Fund Raising--------------------------*/
+#content_FR
+{
+	clear: both;
+	margin-top: 10%;
+	margin-left: 0.43%;
+	margin-bottom: 0.7%;
+}
+#content_FR h2
+{
+	color: #ffab00;
+	font-size: 180%;
+	text-align: center;
+}
+#content_FR p
+{
+	margin-top: 3%;
+	margin-right: 0.7%;
+	margin-left: 10%;
+	font-style: "Times New Roman", "Arial";
+	font-size: 150%;
+}
+#content_FR .graph img
+{
+	margin-left:25%;
+	width:40%;
+	border: 3px solid #424242;
+}
+#content_FR dl
+{
+	margin-top: 3%;
+	margin-right: 0.7%;
+	margin-left: 10%;
+	font-style: "Times New Roman", "Arial";
+	font-size: 150%;
+}
+#content_FR dt
+{
+	color: #ffab00;
+	font-size: 120%;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+#content_FR dd
+{
+	font-size: 100%;
+	margin-left: 15%;
+	margin-right: 10%;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+#footer
+{
+	width: 99.56%;
+	clear: both;
+	margin-top: 2%;
+	border: 2px solid #424242;
+	text-align: center;
+	background-color: #424242;
+	font-size: 130%;
+	font-family: "High Tower Text", "Arial";
+	color: #ffab00;
+}
